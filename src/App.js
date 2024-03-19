@@ -6,6 +6,7 @@ import { Banner } from './components/Banner';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
+import { Projects } from './components/Projects';
 
 
 function App() {
@@ -28,9 +29,11 @@ function App() {
 
         </Row>
       </Container>
+      <Projects/>
       <div className=''>
       <Footer/>
       </div>
+      
     </div>
   );
 }

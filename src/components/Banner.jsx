@@ -22,9 +22,11 @@ export const Banner = () => {
                         <div className='h2 text-center text-white'>I am a <span className='text-primary'>Front-end Devoloper</span></div>
                         <h2 className='text-white justify-content-center text-center'>
                             <Nav className='text-white justify-content-center text-center'>
-                            <NavLink className='text-white text-center'><i class="bi bi-github"></i></NavLink>
-                            <NavLink className='text-white text-center'><i class="bi bi-linkedin"></i></NavLink>
-                            <NavLink className='text-white text-center'><i class="bi bi-instagram"></i></NavLink>
+                            <NavLink className='text-white text-center' target='_blank' href='https://github.com/sivarajagopalans'><i class="bi bi-github"></i></NavLink>
+                            <NavLink className='text-white text-center' target='_blank' 
+                            href='https://in.linkedin.com/in/sivarajagopalan-s-219b9a261'><i class="bi bi-linkedin"></i></NavLink>
+                            <NavLink className='text-white text-center' target='_blank'
+                            href='https://www.instagram.com/black_pearl.sr/'><i class="bi bi-instagram"></i></NavLink>
                             </Nav>
                         </h2>
                         
