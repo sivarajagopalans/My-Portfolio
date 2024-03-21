@@ -1,23 +1,19 @@
 import React from 'react'
 import './css/skills.css'
-import htmllogo from '../images/html-5.svg'
-import csslogo from '../images/css3.svg'
-import bootstraplogo from '../images/bootstrap.svg'
-import javascriptlogo from '../images/javascript.svg'
-import reactlogo from '../images/react.svg'
 
-export const Skills = () => {
+
+export const Skills = (props) => {
   return (
     <section >
     <div className='d-flex align-items-center text-white mb-3' id='skill'>
-      <h3 className='pt-4 pb-4'>Front-end</h3>
+      <h3 className='pt-4 pb-4'>{props.skill}</h3>
 
       <div className='skills-contents'>
-        <h4 className='skills-name'><img src={htmllogo} alt="" />HTML</h4>
-        <h4 className='skills-name'><img src={csslogo} alt="" />CSS</h4>
-        <h4 className='skills-name'><img src={bootstraplogo} alt="" />Bootstrap</h4>
-        <h4 className='skills-name'><img src={javascriptlogo} alt="" />JavaScript</h4>
-        <h4 className='skills-name'><img src={reactlogo} alt="" />React js</h4>
+        <h4 className='skills-name'><img src={props.s1} alt="" />{props.s1t}</h4>
+        <h4 className='skills-name'><img src={props.s2} alt="" />{props.s2t}</h4>
+        <h4 className='skills-name'><img src={props.s3} alt="" />{props.s3t}</h4>
+        <h4 className='skills-name'><img src={props.s4} alt="" />{props.s4t}</h4>
+        <h4 className='skills-name'><img src={props.s5} alt="" /> {props.s5t}</h4>
       </div>
 
 
