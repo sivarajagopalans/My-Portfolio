@@ -14,7 +14,7 @@ function NavBarComponent() {
             <Nav.Link href="#about" className='text-white'>About</Nav.Link>
             <Nav.Link href="#skills" className='text-white'>Skills</Nav.Link>
             <Nav.Link href="#projects" className='text-white'>Projects</Nav.Link>
-            <Nav.Link href="#education" className='text-white'>Education</Nav.Link>
+            {/* <Nav.Link href="#education" className='text-white'>Education</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

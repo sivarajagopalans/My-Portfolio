@@ -14,7 +14,7 @@ export const Footer = () => {
                             <Nav.Link href="#about" className='text-white '>About</Nav.Link>
                             <Nav.Link href="#skills" className='text-white '>Skills</Nav.Link>
                             <Nav.Link href="#Projects" className='text-white '>Projects</Nav.Link>
-                            <Nav.Link href="#education" className='text-white '>Education</Nav.Link>
+                            {/* <Nav.Link href="#education" className='text-white '>Education</Nav.Link> */}
                         </Nav>
                     </Col>
                 </Row>
