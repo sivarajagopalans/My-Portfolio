@@ -15,7 +15,8 @@ import reactlogo from '../src/components/images/react.svg'
 import gitlogo from '../src/components/images/git.svg'
 import githublogo from '../src/components/images/github.svg'
 import vscodelogo from '../src/components/images/vs-code.svg'
-
+import portfolio from '../src/portfolio.jpg'
+import adviceApp from '../src/advice app.JPG'
 
 function App() {
   return (
@@ -41,7 +42,17 @@ function App() {
 
         </Row>
       </Container>
-      <Projects/>
+      <Container>
+      <h2 className='text-center text-white pb-4'>My Projects</h2>
+      <Row>
+        <Col sm={12} md={6} lg={6}>
+      <Projects proImg={portfolio} title='My Portfolio' content="This project is my Portfolio."/>
+      </Col>
+      <Col sm={12} md={6} lg={6}>
+      <Projects proImg={adviceApp} title='Advice Website' content="This project give advices."/>
+      </Col>
+      </Row>
+      </Container>
       <div className=''>
       <Footer/>
       </div>
