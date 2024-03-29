@@ -15,6 +15,8 @@ import reactlogo from '../src/components/images/react.svg'
 import gitlogo from '../src/components/images/git.svg'
 import githublogo from '../src/components/images/github.svg'
 import vscodelogo from '../src/components/images/vs-code.svg'
+import wamplogo from '../src/components/images/WampServer-logo.svg'
+import pycharmlogo from '../src/components/images/PyCharm_Icon.svg'
 import portfolio from '../src/portfolio.jpg'
 import adviceApp from '../src/advice app.JPG'
 
@@ -37,7 +39,7 @@ function App() {
           </Col>
           <Col md={6} sm={12}>
             <Skills  skill='Tools' s1={gitlogo} s1t='Git' s2={githublogo} s2t='Github'
-            s3={vscodelogo} s3t='VS Code' s4='' s4t='' s5='' s5t=''/>
+            s3={vscodelogo} s3t='VS Code' s4={wamplogo} s4t='WAMP' s5={pycharmlogo} s5t='Pycharm'/>
           </Col>
 
         </Row>
