@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.475428a3.css",
-    "main.js": "/My-Portfolio/static/js/main.ccd40717.js",
+    "main.js": "/My-Portfolio/static/js/main.37a0d112.js",
     "static/js/453.1407b060.chunk.js": "/My-Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/bootstrap-icons.woff?": "/My-Portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/My-Portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/SIVA.jpg": "/My-Portfolio/static/media/SIVA.ea8cee9893779f7f54ea.jpg",
     "static/media/portfolio.jpg": "/My-Portfolio/static/media/portfolio.fabfa2e79e700b800e1e.jpg",
+    "static/media/advice app.JPG": "/My-Portfolio/static/media/advice app.39de3b33cd6ab75f9415.JPG",
     "static/media/react.svg": "/My-Portfolio/static/media/react.d725aebee0e3b84bc8e261385ac10c79.svg",
     "static/media/vs-code.svg": "/My-Portfolio/static/media/vs-code.a6a2548a9a5348b5cc46ac0321ffd571.svg",
     "static/media/github.svg": "/My-Portfolio/static/media/github.b56614c61bc6e0b4d4b6d62735c8c3d0.svg",
@@ -17,11 +18,11 @@
     "static/media/css3.svg": "/My-Portfolio/static/media/css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/html-5.svg": "/My-Portfolio/static/media/html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.475428a3.css.map": "/My-Portfolio/static/css/main.475428a3.css.map",
-    "main.ccd40717.js.map": "/My-Portfolio/static/js/main.ccd40717.js.map",
+    "main.37a0d112.js.map": "/My-Portfolio/static/js/main.37a0d112.js.map",
     "453.1407b060.chunk.js.map": "/My-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.475428a3.css",
-    "static/js/main.ccd40717.js"
+    "static/js/main.37a0d112.js"
   ]
 }
