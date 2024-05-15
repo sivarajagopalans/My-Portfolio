@@ -5,7 +5,7 @@ import MyProfile from '../SIVA.jpg'
 
 export const Banner = () => {
     return (
-        <div className='pt-5 '>
+        <div className='pt-1 '>
             <section id='about'>
                 <Container className='pt-5 '> 
                     <Row> 

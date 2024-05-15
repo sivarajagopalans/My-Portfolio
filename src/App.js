@@ -19,12 +19,20 @@ import wamplogo from '../src/components/images/WampServer-logo.svg';
 import pycharmlogo from '../src/components/images/PyCharm_Icon.svg';
 import adviceApp from '../src/advice app.JPG';
 import weatherApp from '../src/Weather app.JPG';
+import Preloader from './components/Preloader';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [preloader,setPreloader]=useState(true);
+  useEffect(()=>{
+    setTimeout(() => {
+      setPreloader(false);
+    }, 1500);
+  },[]);
   return (
     <div className='' style={{ background: "rgb(25, 25, 36)" }}>
 
-
+    {preloader && <Preloader/>}
       <NavBarComponent />
       <div className='text-center pt-4'>
         <Banner />
