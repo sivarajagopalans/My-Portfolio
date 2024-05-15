@@ -1,30 +1,32 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import NavBarComponent from './components/NavBar';
 import { Banner } from './components/Banner';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
 import { Projects } from './components/Projects';
-import htmllogo from '../src/components/images/html-5.svg'
-import csslogo from '../src/components/images/css3.svg'
-import bootstraplogo from '../src/components/images/bootstrap.svg'
-import javascriptlogo from '../src/components/images/javascript.svg'
-import reactlogo from '../src/components/images/react.svg'
-import gitlogo from '../src/components/images/git.svg'
-import githublogo from '../src/components/images/github.svg'
-import vscodelogo from '../src/components/images/vs-code.svg'
-import wamplogo from '../src/components/images/WampServer-logo.svg'
-import pycharmlogo from '../src/components/images/PyCharm_Icon.svg'
-import portfolio from '../src/portfolio.jpg'
-import adviceApp from '../src/advice app.JPG'
+import htmllogo from '../src/components/images/html-5.svg';
+import csslogo from '../src/components/images/css3.svg';
+import bootstraplogo from '../src/components/images/bootstrap.svg';
+import javascriptlogo from '../src/components/images/javascript.svg';
+import reactlogo from '../src/components/images/react.svg';
+import gitlogo from '../src/components/images/git.svg';
+import githublogo from '../src/components/images/github.svg';
+import vscodelogo from '../src/components/images/vs-code.svg';
+import wamplogo from '../src/components/images/WampServer-logo.svg';
+import pycharmlogo from '../src/components/images/PyCharm_Icon.svg';
+import adviceApp from '../src/advice app.JPG';
+import weatherApp from '../src/Weather app.JPG';
 
 function App() {
   return (
     <div className='' style={{ background: "rgb(25, 25, 36)" }}>
+
+
       <NavBarComponent />
-      <div className='text-center pt-4'> 
+      <div className='text-center pt-4'>
         <Banner />
       </div>
 
@@ -33,32 +35,42 @@ function App() {
         <Row className='mx-1 my-4 '>
           <Col className='' md={6} sm={12} >
             <Skills skill="Front-end" s1={htmllogo} s1t='HTML' s2={csslogo} s2t='CSS'
-            s3={bootstraplogo} s3t='Bootstrap' s4={javascriptlogo}
-            s4t='JavaScript'
-            s5={reactlogo} s5t='React Js'/>
+              s3={bootstraplogo} s3t='Bootstrap' s4={javascriptlogo}
+              s4t='JavaScript'
+              s5={reactlogo} s5t='React Js' />
           </Col>
           <Col md={6} sm={12}>
-            <Skills  skill='Tools' s1={gitlogo} s1t='Git' s2={githublogo} s2t='Github'
-            s3={vscodelogo} s3t='VS Code' s4={wamplogo} s4t='WAMP' s5={pycharmlogo} s5t='Pycharm'/>
+            <Skills skill='Tools' s1={gitlogo} s1t='Git' s2={githublogo} s2t='Github'
+              s3={vscodelogo} s3t='VS Code' s4={wamplogo} s4t='WAMP' s5={pycharmlogo} s5t='Pycharm' />
           </Col>
 
         </Row>
       </Container>
+
+      {/* ----------project--------- */}
       <Container>
-      <h2 className='text-center text-white pb-4'>My Projects</h2>
-      <Row>
-        <Col sm={12} md={6} lg={6}>
-      <Projects proImg={portfolio} title='My Portfolio' content="This project is my Portfolio."/>
-      </Col>
-      <Col sm={12} md={6} lg={6}>
-      <Projects proImg={adviceApp} title='Advice Website' content="This project give advices."/>
-      </Col>
-      </Row>
+        <h2 className='text-center text-white pb-4'>My Projects</h2>
+        <Row className='justify-content-center'>
+          <Col sm={12} md={6} lg={4}>
+            <Projects proImg={weatherApp}
+              s1="HTML" s2="CSS" s4="JavaScript" s5="React Js"
+              title='Weather Website' content="Find your location weather."
+              live="https://sivarajagopalans.github.io/Weather-app/" />
+          </Col>
+          <Col sm={12} md={6} lg={4}>
+            <Projects proImg={adviceApp}
+              s1="HTML" s2="CSS" s3="Bootstrap" s4="JavaScript" s5="React Js"
+              title='Advice Website' content="This project give advices."
+              live="https://sivarajagopalans.github.io/Advice-app/" />
+          </Col>
+        </Row>
       </Container>
+
+      {/* --------footer------- */}
       <div className=''>
-      <Footer/>
+        <Footer />
       </div>
-      
+
     </div>
   );
 }
