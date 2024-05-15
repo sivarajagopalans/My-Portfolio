@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.475428a3.css",
-    "main.js": "/My-Portfolio/static/js/main.30b3a7e9.js",
+    "main.css": "/My-Portfolio/static/css/main.9369f214.css",
+    "main.js": "/My-Portfolio/static/js/main.9b5841ff.js",
     "static/js/453.1407b060.chunk.js": "/My-Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/bootstrap-icons.woff?": "/My-Portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/preloader.gif": "/My-Portfolio/static/media/preloader.aad6d8fc9601365d5221.gif",
     "static/media/bootstrap-icons.woff2?": "/My-Portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/SIVA.jpg": "/My-Portfolio/static/media/SIVA.ea8cee9893779f7f54ea.jpg",
     "static/media/Weather app.JPG": "/My-Portfolio/static/media/Weather app.2ed3296cb98e0e895d88.JPG",
@@ -19,12 +20,12 @@
     "index.html": "/My-Portfolio/index.html",
     "static/media/css3.svg": "/My-Portfolio/static/media/css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/html-5.svg": "/My-Portfolio/static/media/html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.475428a3.css.map": "/My-Portfolio/static/css/main.475428a3.css.map",
-    "main.30b3a7e9.js.map": "/My-Portfolio/static/js/main.30b3a7e9.js.map",
+    "main.9369f214.css.map": "/My-Portfolio/static/css/main.9369f214.css.map",
+    "main.9b5841ff.js.map": "/My-Portfolio/static/js/main.9b5841ff.js.map",
     "453.1407b060.chunk.js.map": "/My-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.475428a3.css",
-    "static/js/main.30b3a7e9.js"
+    "static/css/main.9369f214.css",
+    "static/js/main.9b5841ff.js"
   ]
 }
