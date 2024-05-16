@@ -7,7 +7,7 @@ import { Button, Container } from 'react-bootstrap';
 
 export const Projects = (props) => {
   return (
-    <section id='projects'>
+    <section>
 
       <Container className='d-flex  justify-content-center align-items-center text-center pb-4' >
 

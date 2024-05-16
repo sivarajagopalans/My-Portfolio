@@ -7,56 +7,68 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
 import { Projects } from './components/Projects';
-import htmllogo from '../src/components/images/html-5.svg';
-import csslogo from '../src/components/images/css3.svg';
-import bootstraplogo from '../src/components/images/bootstrap.svg';
-import javascriptlogo from '../src/components/images/javascript.svg';
-import reactlogo from '../src/components/images/react.svg';
-import gitlogo from '../src/components/images/git.svg';
-import githublogo from '../src/components/images/github.svg';
-import vscodelogo from '../src/components/images/vs-code.svg';
-import wamplogo from '../src/components/images/WampServer-logo.svg';
-import pycharmlogo from '../src/components/images/PyCharm_Icon.svg';
-import adviceApp from '../src/advice app.JPG';
-import weatherApp from '../src/Weather app.JPG';
+import htmllogo from '../src/images/html-5.svg';
+import csslogo from '../src/images/css3.svg';
+import bootstraplogo from '../src/images/bootstrap.svg';
+import javascriptlogo from '../src/images/javascript.svg';
+import reactlogo from '../src/images/react.svg';
+import gitlogo from '../src/images/git.svg';
+import githublogo from '../src/images/github.svg';
+import vscodelogo from '../src/images/vs-code.svg';
+import wamplogo from '../src/images/WampServer.svg';
+import postmanlogo from '../src/images/postman.svg';
+import adviceApp from '../src/images/adviceApp.jpg';
+import weatherApp from '../src/images/weatherApp.jpg';
 import Preloader from './components/Preloader';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [preloader,setPreloader]=useState(true);
-  useEffect(()=>{
+  const [preloader, setPreloader] = useState(true);
+  useEffect(() => {
     setTimeout(() => {
       setPreloader(false);
     }, 1500);
-  },[]);
+  }, []);
   return (
     <div className='' style={{ background: "rgb(25, 25, 36)" }}>
 
-    {preloader && <Preloader/>}
+      {/* -------------preloader------------ */}
+
+      {preloader && <Preloader />}
+
+
+      {/* -------------navbar--------------- */}
       <NavBarComponent />
+
+      {/* -------------banner--------------- */}
       <div className='text-center pt-4'>
         <Banner />
       </div>
 
-      <Container className='d-flex flex-column justify-content-center pt-5 align-items-center' id='skills'>
-        <h3 className=' h1 text-white d-flex justify-content-center py-4' >SKILLS</h3>
-        <Row className='mx-1 my-4 '>
-          <Col className='' md={6} sm={12} >
+
+      {/* ---------Skills---------- */}
+
+      <Container className='d-flex flex-column justify-content-center pt-3 align-items-center' id='skills'>
+        <h3 className=' h1 text-white d-flex justify-content-center py-1' >SKILLS</h3>
+        <Row className=' my-2 justify-content-center' >
+          <Col style={{ paddingLeft: "0px", paddingRight: "0px" }} className=''
+            md={6} sm={9} lg={6} xl={5} xxl={5}>
             <Skills skill="Front-end" s1={htmllogo} s1t='HTML' s2={csslogo} s2t='CSS'
               s3={bootstraplogo} s3t='Bootstrap' s4={javascriptlogo}
               s4t='JavaScript'
               s5={reactlogo} s5t='React Js' />
           </Col>
-          <Col md={6} sm={12}>
+          <Col style={{ paddingLeft: "0px", paddingRight: "0px" }}
+            md={6} sm={9} lg={6} xl={5} xxl={5}>
             <Skills skill='Tools' s1={gitlogo} s1t='Git' s2={githublogo} s2t='Github'
-              s3={vscodelogo} s3t='VS Code' s4={wamplogo} s4t='WAMP' s5={pycharmlogo} s5t='Pycharm' />
+              s3={vscodelogo} s3t='VS Code' s4={wamplogo} s4t='WAMP' s5={postmanlogo} s5t='Postman' />
           </Col>
 
         </Row>
       </Container>
 
       {/* ----------project--------- */}
-      <Container>
+      <Container id='projects'>
         <h2 className='text-center text-white pb-4'>My Projects</h2>
         <Row className='justify-content-center'>
           <Col sm={12} md={6} lg={4}>
