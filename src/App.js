@@ -31,7 +31,7 @@ function App() {
     }, 1500);
   }, []);
   return (
-    <div className='' style={{ background: "rgb(25, 25, 36)" }}>
+    <div style={{ background: "rgb(25, 25, 36)" }}>
 
       {/* -------------preloader------------ */}
 
@@ -49,24 +49,7 @@ function App() {
 
       {/* ---------Skills---------- */}
 
-      <Container className='d-flex flex-column justify-content-center pt-3 align-items-center' id='skills'>
-        <h3 className=' h1 text-white d-flex justify-content-center py-1' >SKILLS</h3>
-        <Row className=' my-2 justify-content-center' >
-          <Col style={{ paddingLeft: "0px", paddingRight: "0px" }} className=''
-            md={6} sm={9} lg={6} xl={5} xxl={5}>
-            <Skills skill="Front-end" s1={htmllogo} s1t='HTML' s2={csslogo} s2t='CSS'
-              s3={bootstraplogo} s3t='Bootstrap' s4={javascriptlogo}
-              s4t='JavaScript'
-              s5={reactlogo} s5t='React Js' />
-          </Col>
-          <Col style={{ paddingLeft: "0px", paddingRight: "0px" }}
-            md={6} sm={9} lg={6} xl={5} xxl={5}>
-            <Skills skill='Tools' s1={gitlogo} s1t='Git' s2={githublogo} s2t='Github'
-              s3={vscodelogo} s3t='VS Code' s4={wamplogo} s4t='WAMP' s5={postmanlogo} s5t='Postman' />
-          </Col>
-
-        </Row>
-      </Container>
+      <Skills />
 
       {/* ----------project--------- */}
       <Container id='projects'>
@@ -90,14 +73,14 @@ function App() {
       {/* -----contact----- */}
 
 
-      <Contact/>
+      <Contact />
 
       {/* --------footer------- */}
       <div className=''>
         <Footer />
       </div>
 
-    </div>
+    </div >
   );
 }
 
