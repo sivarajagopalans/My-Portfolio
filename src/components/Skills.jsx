@@ -13,7 +13,7 @@ import vscodelogo from '../images/vs-code.svg';
 import wamplogo from '../images/WampServer.svg';
 import postmanlogo from '../images/postman.svg';
 
-export const Skills = (props) => {
+export const Skills = () => {
 
   const skillsList = [
     {
@@ -48,7 +48,7 @@ export const Skills = (props) => {
           skillsList.map((skill, index) => {
             return (
               <Col className='my-2' md={6} sm={12} key={index}>
-                <div  className=' text-white mb-3 skill'>
+                <div className=' text-white mb-3 skill'>
                   <h3 className='my-4'>{skill.title}</h3>
                   <div className='skills-contents'>
                     {
