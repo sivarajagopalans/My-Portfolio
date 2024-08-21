@@ -21,6 +21,7 @@ import adviceApp from '../src/images/adviceApp.jpg';
 import weatherApp from '../src/images/weatherApp.jpg';
 import Preloader from './components/Preloader';
 import { useEffect, useState } from 'react';
+import { Contact } from './components/Contact';
 
 function App() {
   const [preloader, setPreloader] = useState(true);
@@ -85,6 +86,11 @@ function App() {
           </Col>
         </Row>
       </Container>
+
+      {/* -----contact----- */}
+
+
+      <Contact/>
 
       {/* --------footer------- */}
       <div className=''>

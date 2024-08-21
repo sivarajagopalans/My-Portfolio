@@ -14,6 +14,7 @@ function NavBarComponent() {
             <Nav.Link href="#about" className='text-white'>About</Nav.Link>
             <Nav.Link href="#skills" className='text-white'>Skills</Nav.Link>
             <Nav.Link href="#projects" className='text-white'>Projects</Nav.Link>
+            <Nav.Link href="#contact" className='text-white'>Contact</Nav.Link>
             <Nav.Link href="https://github.com/sivarajagopalans" target='_blank' className=' '
             style={{border:"1.8px solid rgb(133, 76, 230)", borderRadius:"15px",padding:"10px",paddingTop:"10px",display:"flex", justifyContent:"center", alignItems:"center",flexWrap:"wrap",color: "rgb(133, 76, 230)"}}>GitHub Profile</Nav.Link>
           </Nav>
