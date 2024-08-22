@@ -1,0 +1,16 @@
+.project-card {
+    width: 22rem;
+    border: 1px solid rgb(12, 12, 11);
+    box-shadow: rgb(167 89 214 / 15%) 0px 4px 24px;
+    transition: all 0.4s;
+}
+
+.project-card:hover {
+    transform: scale(1.04);
+}
+
+.live-btn {
+    background: linear-gradient(225deg, rgb(118, 4, 224) 0%, rgb(99, 1, 109) 100%);
+    color: white;
+    font-size: 1.2rem;
+}
