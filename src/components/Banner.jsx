@@ -11,7 +11,7 @@ export const Banner = () => {
           <Row>
             <Col lg={6} md={6} sm={12} xs={12}>
               <div className='rounded pt-4'>
-                <img src={MyProfile} alt="My profile" className='profile-image' />
+                <img src={MyProfile} alt="SIVARAJAGOPALAN S" className='profile-image' />
               </div>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
