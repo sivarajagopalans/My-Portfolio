@@ -21,37 +21,14 @@ function App() {
   return (
     <div style={{ background: "rgb(25, 25, 36)" }}>
 
-      {/* -------------preloader------------ */}
-
       {preloader && <Preloader />}
 
-
-      {/* -------------navbar--------------- */}
       <NavBarComponent />
-
-      {/* -------------banner--------------- */}
-      <div className='text-center pt-4'>
-        <Banner />
-      </div>
-
-
-      {/* ---------Skills---------- */}
-
+      <Banner />
       <Skills />
-
-      {/* ----------project--------- */}
-
       <Projects />
-
-      {/* -----contact----- */}
-
-
       <Contact />
-
-      {/* --------footer------- */}
-      <div className=''>
-        <Footer />
-      </div>
+      <Footer />
 
     </div >
   );
