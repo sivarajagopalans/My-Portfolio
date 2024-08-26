@@ -1,10 +1,7 @@
-.profile-image{
+.profile-image {
     width: 90%;
     height: auto;
     min-height: 50%;
     border: 2px solid rgb(73, 236, 97);
     border-radius: 50%;
-    align-items: center;
-
-    
 }
